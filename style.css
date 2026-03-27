@@ -23,18 +23,22 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  align-items: center;
 }
 
 .btn {
   background: #c59d5f;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .hero-content {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  align-items: center;
   margin-bottom: 300px;
 }
 
