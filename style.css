@@ -82,6 +82,47 @@ body {
   cursor: pointer;
 }
 
+.reviews {
+  padding: 80px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.reviews-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+  justify-content: center;
+  gap: 25px;
+}
+
+.review {
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 15px;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.review:hover {
+  transform: translateY(-8px);
+}
+
+.review p {
+  font-style: italic;
+}
+
+.review span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #c59d5f;
+}
+
 /* FOOTER */
 footer {
   background: #222;
